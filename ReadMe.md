@@ -67,6 +67,7 @@ How to:
 choose 0xC0000 or any address in the range 0x80000 to 0xFFFFF.
 
 ASCII/COMMAND:
+
 To send the command/ASCII.
 		GPIOA A0-A7 = command/ASCII
 		GPIOA A15-A12 = 0000
