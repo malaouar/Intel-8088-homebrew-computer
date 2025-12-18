@@ -33,32 +33,8 @@ https://www.artekit.eu/vga-output-using-a-36-pin-stm32/
 
 Hardware:
 --------
-Here are the connections. the 8088 A0-A7 and A16-A19 are demultiplexed using two 74LS373 ICs.
--------------------------------------------------------+
-	F411    |  8088     | SD 	|   VGA		| KeyBoard |
---------------------------------------------|----------|
-	PB12 	|ROM/VGA CS	|		|			|          |
-	PB8  	|	RD		|		|			|          |
-	PB9		|	WR      |		|			|          |
-	PB1		|	CLK     |		|			|          |
-	PB10	|  RESET    |		|			|          |
-	PB3		|  INTA     |		|			|          |
-	PB7		|  INTR		|		|			|          |
-	PA0-PA7	|  A0-A7	|		|			|          |
-	PB0		|	A8		|		|			|          |
-	PA8-PA15|  D0-D7    |		|			|          |
---------------------------------------------|----------|
-	PB13	|           | SCK	|			|          |
-	PB14	|           | MISO	|			|          |
-	PB15	|           | MOSI	|			|          |	
---------------------------------------------|----------|
-	PB4		|           |		| H SYNC	|          |
-	PB5		|           |		| VIDEO OUT |          |
-	PB6		|           |		| V SYNC	|          |
---------------------------------------------|----------|
-	PC14	|           |   	|			|  DATA    |
-	PC15	|           |   	|			|  CLOCK   |	
--------------------------------------------------------+
+The connections are shown in connections.jpg. 
+the 8088 A0-A7 and A16-A19 are demultiplexed using two 74LS373 ICs.
 You have 2 FREE pins: PB2 and PC13.
 
 ATTENTION:
